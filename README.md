@@ -5,6 +5,8 @@ A bloxorz solver written in Go.
 
 [Original game](http://www.coolmath-games.com/0-bloxorz/)
 
+![](https://raw.github.com/YouriAckx/bloxorz/master/bloxorz.jpg)
+
 ### Demo
 
 ```
