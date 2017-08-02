@@ -10,7 +10,8 @@ A bloxorz solver written in Go.
 ### Demo
 
 ```
-youri@foobar bloxorz> go test
+bloxorz (master)$ cd src/bloxorz
+$ bloxorz> go test
 terrain1 first solution in 2 moves: [(0, 0); (1, 0)-(2, 0); (3, 0)]
 terrain2 first solution in 4 moves: [(0, 3); (0, 1)-(0, 2); (0, 0); (1, 0)-(2, 0); (3, 0)]
 (...)
