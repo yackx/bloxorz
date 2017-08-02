@@ -16,7 +16,6 @@ type Block struct {
 //
 // There are no internal consistency checks
 // e.g. left-most/upper-most rule or (ax, ay) adjacent to (bx, by)
-
 func NewBlockDown(ax, ay, bx, by int) *Block {
 	return &Block{ax: ax, ay: ay, bx: bx, by: by}
 }

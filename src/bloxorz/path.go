@@ -21,12 +21,12 @@ func (path Path) Contains(b Block) bool {
 	return false
 }
 
-// Add a Block to this Path.
+// Add a Block at the end of this Path.
 func (path *Path) Add(b Block) {
 	*path = append(*path, b)
 }
 
-// Remove and return the last Block of this Path.
+// Return the last Block of this Path.
 func (path *Path) Tail() *Block {
 	p := *path
 	if len(p) == 0 {
