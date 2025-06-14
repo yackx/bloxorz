@@ -1,7 +1,7 @@
 bloxorz
 =======
 
-A bloxorz solver written in Go.
+**A bloxorz solver written in Go**
 
 [Original game](http://www.coolmath-games.com/0-bloxorz/)
 
